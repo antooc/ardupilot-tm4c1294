@@ -1,0 +1,5 @@
+ardupilot\build\px4-v2
+ardupilot\build\px4-v2\modules\PX4Firmware
+ardupilot\libraries\AP_Common\missing
+ardupilot\libraries
+ardupilot\build\px4-v2\libraries\GCS_MAVLink
