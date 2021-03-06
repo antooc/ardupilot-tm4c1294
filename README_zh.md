@@ -42,6 +42,10 @@
 - ardupilot_app工程包含了ardupilot_driver工程，如果是要编译完整固件的话，仅打开ardupilot_app工程即可。作者之所以别开了一个ardupilot_driver工程，是为了便于开发驱动。虽然ccs是增量编译，不过整个ardupilot编译出的固件太大了，烧录就要1分钟。。。。。。
 - ardupilot_app和ardupilot_driver仅仅是IDE工程目录，里面不包含代码的。它们引用的是同一份代码。
 
+导入ardupilot_app：
+
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0306/171624_5bfef239_673614.png "屏幕截图.png")
+
 ## 编译方法
 
 本项目是2年前做的，用的是CCS8， Version: 8.3.0.00009 。更高版本的IDE应该没问题，因为CCS8自带的编译器也编译不过，主要是在编译RT-Thread的POXIS接口时有问题。研究无果，最终简单粗暴，使用RT-Thread官方编译器来编译。下面讲解换编译器的方法。
